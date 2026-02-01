@@ -1,0 +1,33 @@
+baseURL: https://vyuka.tkysela.cz
+languageCode: cs
+title: Tomáš Kysela | Výuka
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  ShowCodeCopyButtons: true
+  ShowReadingTime: false
+  profileMode:
+    enabled: true
+    title: "Tomáš Kysela"
+    subtitle: "Podklady a materiály pro studenty"
+    buttons:
+      - name: Materiály
+        url: "/resources"
+      - name: Známky
+        url: "https://classroom.google.com"
+
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
