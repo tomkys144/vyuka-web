@@ -3,6 +3,7 @@ title: Organizace pololetí
 date: 2026-02-01
 tags: [Meta]
 showToc: true
+hideMeta: true
 weight: -1
 summary: "Klíčové informace: 2 testy (vážený průměr), dobrovolné DÚ a systém hodnocení."
 ---

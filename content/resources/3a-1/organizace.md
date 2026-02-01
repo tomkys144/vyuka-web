@@ -3,6 +3,7 @@ title: Organizace pololetí
 tags: [Meta]
 showToc: true
 weight: -1
+hideMeta: true
 summary: "Klíčové informace: 2 testy (vážený průměr), dobrovolné DÚ a systém hodnocení."
 ---
 

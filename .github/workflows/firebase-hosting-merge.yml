@@ -26,8 +26,3 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VYUKA_ACEE9 }}
           channelId: live
           projectId: vyuka-acee9
-
-      - name: Bundle
-        uses: actions/upload-artifact@v4
-        with:
-          path: content/*
