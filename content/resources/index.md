@@ -1,8 +1,5 @@
 ---
 title: Materiály
-layout: "page"
-hidemeta: true
-showFullContents: false
 ---
 
 <div class="resources-wrap" style="display: flex;flex-direction: column;align-items: center;">
