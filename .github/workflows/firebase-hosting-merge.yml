@@ -30,4 +30,4 @@ jobs:
       - name: Bundle
         uses: actions/upload-artifact@v4
         with:
-          path: public/*
+          path: *
