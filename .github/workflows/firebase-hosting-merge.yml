@@ -17,7 +17,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify -F
 
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -26,3 +26,8 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VYUKA_ACEE9 }}
           channelId: live
           projectId: vyuka-acee9
+
+      - name: Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          path: public/*
